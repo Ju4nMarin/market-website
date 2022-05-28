@@ -1,0 +1,78 @@
+body{
+    background-color: #E42D26;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23E42D26' cx='50' cy='0' r='50'/%3E%3Cg fill='%23df2b26' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23db2926' cx='50' cy='100' r='50'/%3E%3Cg fill='%23d62725' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d22625' cx='50' cy='200' r='50'/%3E%3Cg fill='%23cd2425' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c92225' cx='50' cy='300' r='50'/%3E%3Cg fill='%23c52024' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c01f24' cx='50' cy='400' r='50'/%3E%3Cg fill='%23bc1d23' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b71b23' cx='50' cy='500' r='50'/%3E%3Cg fill='%23b31a23' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ae1822' cx='50' cy='600' r='50'/%3E%3Cg fill='%23aa1721' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a51521' cx='50' cy='700' r='50'/%3E%3Cg fill='%23a11420' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%239c1220' cx='50' cy='800' r='50'/%3E%3Cg fill='%2398111f' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2394101e' cx='50' cy='900' r='50'/%3E%3Cg fill='%238f0e1e' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%238B0D1D' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+  /*background: linear-gradient(180deg, rgba(213,4,4,1) 0%, #8B0D1D 100%) no-repeat center center fixed;*/
+    background-size: cover;
+    /*background: rgb(255,35,35);
+    background: linear-gradient(180deg, rgba(213,4,4,1) 0%, #8B0D1D 100%) no-repeat center center fixed;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  1.3rem;
+    line-height: 1,4rem;
+    margin: 0;
+}
+
+
+
+
+
+.header {
+  background-color: #8B0D1D;
+   
+}
+.header a {
+    color: white;
+    text-decoration: none;
+  }
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    
+}
+
+.navigation ul li {
+    display:  inline-block;
+
+}
+
+.logo {
+   letter-spacing: 2px;
+   font-size: 1.5em;
+   transition: all 0.4s linear;
+   padding: 0.5rem 1rem; 
+   
+}
+.logo:hover{
+    color: rgb(0, 0, 0);
+}
+
+.navigation ul li a {
+    display:  inline-block;
+    padding: 1rem 1rem;
+    transition: all 0.2s linear;
+    background-color: rgb(82, 1, 1);
+}
+.navigation ul li {
+    color: white;
+}
+
+.navigation ul li a:hover {
+    background: rgb(255, 255, 255);
+    color: #530610;
+    
+}
+
+
+
+
+
+
+
+
